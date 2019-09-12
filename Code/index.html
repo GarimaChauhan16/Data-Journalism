@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <br>
+        <h1>D3Times</h1>
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-12">
+        <div class="article">
+          <h2>Correlations Discovered Between Health Risks and Age, Income factors</h2>
+          <br>
+          <p class="description">In this project, We are studying the relationship between the health risk factors and various demographics.
+            The data was collected from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System. The circles represent the indivisual
+            states of USA.
+          </p>
+          <br>
+          <h6>Click on any of the axis titles and start exploring!!!</h6>
+          <div id="scatter">
+            <!-- We append our chart here. -->
+          </div>
+          <br>
+          <h4>Some of the observble trends are:</h4>
+          <br>
+          <p class="description">-The Healthcare-Poverty plot suggests that the state poverty rate plays an influential role in people's ability to obtain better
+            healthcare coverage.</p>
+          <br>
+
+          <p class="description">-The visible trend indicates that the poorer states have higher obesity rates and greater tendencies of smoking.
+              Wealthier states not only have higher rates of healthcare coverage, but lower obesity and smoking rates as well.
+          </p>
+          <br>
+          <p class ="description">-The median age values in most US states are clustered between 30-45 years old. A close look at the plots with median age at the x-axis indicates some 
+            correlations such as: higher median age and higher healthcare coverage, lower median age and lower smoking rates, and finally, lower median age and
+            lower obesity rates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <p>The Coding Boot Camp©2016</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
