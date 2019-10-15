@@ -1,83 +1,28 @@
-# D3 Homework - Data Journalism and D3
+# Data Journalism and D3
+
+In this project, We are studying the relationship between demographics and behavioral risk factors. The data was collected from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System. The circles represent the indivisual states of USA.
 
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
-## Background
-
-Welcome to the newsroom! You've just accepted a data visualization position for a major metro paper. You're tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements to help readers understand your findings.
-
-The editor wants to run a series of feature stories about the health risks facing particular demographics. She's counting on you to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
-
-The data set included with the assignment is based on 2014 ACS 1-year estimates: [https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml), but you are free to investigate a different data set. The current data set incldes data on rates of income, obesity, poverty, etc. by state. MOE stands for "margin of error."
-
-### Before You Begin
-
-1. Create a new repository for this project called `D3-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the D3 challenge. Use the folder name to correspond to the challenge: **D3_data_journalism**.
-
-4. This homeworks utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-## Your Task
-
-### Level 1: D3 Dabbler
-
-![4-scatter](Images/4-scatter.jpg)
-
-You need to create a scatter plot between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`.
-
-Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. You'll code this graphic in the `app.js` file of your homework directory—make sure you pull in the data from `data.csv` by using the `d3.csv` function. Your scatter plot should ultimately appear like the image at the top of this section.
-
-* Include state abbreviations in the circles.
-
-* Create and situate your axes and labels to the left and bottom of the chart.
-
-* Note: You'll need to use `python -m http.server` to run the visualization. This will host the page at `localhost:8000` in your web browser.
-
-- - -
-
-### Level 2: Impress the Boss (Optional Challenge Assignment)
-
-Why make a static graphic when D3 lets you interact with your data?
 
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
-#### 1. More Data, More Dynamics
 
-You're going to include more demographics and more risk factors. Place additional labels in your scatter plot and give them click events so that your users can decide which data to display. Animate the transitions for your circles' locations as well as the range of your axes. Do this for two risk factors for each axis. Or, for an extreme challenge, create three for each axis.
+Some of the observble trends are:
 
-* Hint: Try binding all of the CSV data to your circles. This will let you easily determine their x or y values when you click the labels.
+* The Healthcare-Poverty plot suggests that the state poverty rate plays an influential role in people's ability to obtain better healthcare coverage.
 
-#### 2. Incorporate d3-tip
 
-While the ticks on the axes allow us to infer approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Add tooltips to your circles and display each tooltip with the data that the user has selected. Use the `d3-tip.js` plugin developed by [Justin Palmer](https://github.com/Caged)—we've already included this plugin in your assignment directory.
+![healthcare](Images/healthcare-poverty.png)
 
-![8-tooltip](Images/8-tooltip.gif)
 
-* Check out [David Gotz's example](https://bl.ocks.org/davegotz/bd54b56723c154d25eedde6504d30ad7) to see how you should implement tooltips with d3-tip.
+* The visible trend indicates that the poorer states have higher obesity rates and greater tendencies of smoking. Wealthier states not only have higher rates of healthcare coverage, but lower obesity and smoking rates as well.
 
-- - -
+![obesity](Images/obesity.png)
+![smoking](Images/smoke.png)
 
-### Assessment
 
-Your final product will be assessed on the following metrics:
+* The median age values in most US states are clustered between 30-45 years old. A close look at the plots with median age at the x-axis indicates some correlations such as: higher median age and higher healthcare coverage, lower median age and lower smoking rates, and finally, lower median age and lower obesity rates.
 
-* Creation of a **new** repository on GitHub called `D3-Challenge` (note the kebab-case). Do not add to an already existing repo.
+![smoking](Images/age.png)
 
-* Completion of all steps in chosen level
-
-* Coherency of scatter plot (labels, ticks)
-
-* Visual attraction
-
-* Professionalism
-
-**Good luck!**
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
