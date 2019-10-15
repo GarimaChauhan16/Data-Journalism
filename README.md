@@ -8,7 +8,7 @@ In this project, We are studying the relationship between demographics and behav
 ![7-animated-scatter](Images/7-animated-scatter.gif)
 
 
-Some of the observble trends are:
+## Some of the observble trends are:
 
 * The Healthcare-Poverty plot suggests that the state poverty rate plays an influential role in people's ability to obtain better healthcare coverage.
 
