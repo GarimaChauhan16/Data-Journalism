@@ -18,7 +18,7 @@ Some of the observble trends are:
 
 * The visible trend indicates that the poorer states have higher obesity rates and greater tendencies of smoking. Wealthier states not only have higher rates of healthcare coverage, but lower obesity and smoking rates as well.
 
-![obesity](Images/obesity.png)
+![obesity](Images/obesity_rate.png)
 ![smoking](Images/smoke.png)
 
 
